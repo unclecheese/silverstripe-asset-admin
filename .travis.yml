@@ -27,16 +27,8 @@ env:
 
 matrix:
   include:
-    - php: 5.6
-      env: PHPUNIT_TEST=1
     - php: 7.0
       env: BEHAT_TEST=1
-    - php: 7.0
-      env: PHPUNIT_TEST=1
-    - php: 5.6
-      env: NPM_TEST=1
-    - php: 5.6
-      env: PHPCS_TEST=1
 
 before_script:
 # Extra $PATH
